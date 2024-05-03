@@ -23,7 +23,7 @@
             flex: 1;
             margin: 20px;
         }
-        #t{
+        .t{
             font-style: italic;
             text-decoration:underline;
         }
@@ -59,7 +59,7 @@
         <div>
             <div id="container">
                 <div id="div1">
-                    <p id="t">Register now while sites are available!</p>
+                    <p class="t">Register now while sites are available!</p>
                     
                     <p>FirstName: <em><input type="text" name="FirstName" pattern="[a-zA-Z][a-zA-Z\s]+" required title="Only from A-Z characters are allowed"></em></p>      
                     <p>LastName:<em> <input type="text" name="LastName" pattern="[a-zA-Z]+" required title="Only from A-Z characters are allowed"></em></p>         
@@ -98,7 +98,7 @@
                 
                 </div>
                 <div id="right">
-                    <p id="t">lanunch</p>
+                    <p class="t">lanunch</p>
                     <p>Meal Preference: 
                         <em>
                             <select>
@@ -109,7 +109,7 @@
                             </select>
                         </em>
                     </p>
-                    <p >Payment Mood
+                    <p>Payment Mood
                         <p><em class="pay"><input type="checkbox" name="cash">cash</em></p>
                         <p><em class="pay"><input type="checkbox" name="cash1">Check</em></p>
                         <p><em class="pay"><input type="checkbox" name="cash2">Card</em></p>
@@ -123,7 +123,7 @@
                         </fieldset>
                     </p>
                     <p>DD/Checke No.
-                        <em><input type="number" maxlength="9" name="cheke no."></em>
+                        <em><input type="text" maxlength="9" name="cheke no."></em>
                     </p>
                     <p>Drown On(Bank Name)
                         <em><input type="text"  name="bankn" pattern="[a-zA-Z\s]+"></em>
